@@ -1,0 +1,14 @@
+.main {
+    width: 750px;
+    margin: auto;
+    /*让profile和shotchart左右分开，而不是原来上下堆叠*/
+}
+
+.player {
+    display: flex;
+    overflow: hidden;
+    border: 1px #ccc solid;
+    /*加圆角*/
+    border-radius: 30px;
+    box-shadow: 3px 5px 10px #999;
+}

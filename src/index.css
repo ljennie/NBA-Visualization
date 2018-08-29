@@ -1,0 +1,16 @@
+@import '~antd/dist/antd.css';
+@import "styles/App.css";
+@import "styles/TopNavBar.css";
+@import "styles/Main.css";
+@import "styles/Profile.css";
+@import "styles/ShotChart.css";
+@import "styles/DataViewContainer.css";
+/*@import '~antd/dist/antd.css'; 要把这个放在最前面，因为后面的会merge到前面去*/
+@import "styles/SearchBar.css";
+
+body {
+
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
